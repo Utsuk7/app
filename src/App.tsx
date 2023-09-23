@@ -1,10 +1,11 @@
 import Home from "./components/Home";
+import Ministry from "./components/Ministry";
 
 function App() {
   // describe UI
   return (
     <div>
-      <Home />
+      <Ministry></Ministry>
     </div>
   );
 }
