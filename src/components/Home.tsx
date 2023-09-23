@@ -8,6 +8,7 @@ import Header from "./Header";
 import JoinUs from "./JoinUs";
 import ImageDisplay from "./ImageDisplay";
 import NavBar from "./NavBar";
+import IndiaMap from "./ThreeIndiaMap";
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
         style={{
           display: "flex",
           alignItems: "flex-start",
-          backgroundImage: 'url("/background.jpg")', // Replace "your-image.jpg" with the actual image file name
+          backgroundImage: 'url("/.jpg")', // Replace "your-image.jpg" with the actual image file name
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           width: "2000px", // You can adjust this property based on your preference
@@ -148,14 +149,14 @@ const Home = () => {
           </section>
         </div> */}
 
-          <ImageDisplay
+          {/* <ImageDisplay
             src={"map.png"}
             alt={"map"}
             width="600px"
             height="600px"
             top="150px"
             left="0"
-          ></ImageDisplay>
+          ></ImageDisplay> */}
 
           {/* Third section of squares (after image) */}
           <div>
@@ -242,6 +243,8 @@ const Home = () => {
         top="-380px"
         left="-250px"
       ></ImageDisplay> */}
+
+      <IndiaMap></IndiaMap>
 
       <div className="box-container">
         <Box

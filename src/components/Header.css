@@ -46,4 +46,7 @@
   .header-image {
     max-width: 100%; /* Ensure the image fits within the container */
     margin-right: 20px; /* Add spacing between image and text */
+    position: relative;
+    top: -40px;
+    left: 10px;
   }

@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-content">
-        <img src="doctor.png" alt="Header Image" className="header-image" />
+        <img src="doctors.jpg" alt="Header Image" className="header-image" />
         <div className="text-container">
-          <h1>Welcome to Our De-Addiction Network</h1>
+          <h1>Join the Nasha Mukt Bharat Abhiyan Today</h1>
           <p>Your Partner in Recovery</p>
           <button className="cta-button">Join Us</button>
         </div>
