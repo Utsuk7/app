@@ -260,7 +260,7 @@ const Home = () => {
         <Box
           image="MoSJE.png"
           text="Leverage our Huge Dataset to analyzie the nasha mukti progess nation wide."
-          link={undefined}
+          link={"/Ministry"}
         />
       </div>
 
